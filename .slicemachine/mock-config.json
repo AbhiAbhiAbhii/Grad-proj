@@ -1,0 +1,21 @@
+{
+  "_cts": {
+    "homepage": {},
+    "contactpage": {},
+    "navbar": {}
+  },
+  "slices": {
+    "HeroSlice": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Contact": {},
+    "NavSlice": {},
+    "MainNavSlice": {
+      "default": {
+        "items": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.borderAnimate {
+  position: relative;
+ /* border: 1px red solid; */
+ -webkit-transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+ transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+}
+.borderAnimate::after {
+  content: '';
+  position: absolute;
+  bottom: -6%;
+  height: .16rem;
+  width: 0%;
+  background-color: black;
+  -webkit-transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+  transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+}
+
+.borderAnimatee::after {
+  content: '';
+  position: absolute;
+  bottom: -6%;
+  height: .16rem;
+  width: 100%;
+  background-color: black;
+  -webkit-transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+  transition: all 1.6s cubic-bezier(.42, 0, .58, 1);
+}
+
